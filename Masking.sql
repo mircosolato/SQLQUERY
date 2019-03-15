@@ -5,3 +5,4 @@
 -- https://www.red-gate.com/simple-talk/blogs/unmasking-the-dynamic-data-masking/
 -- https://www.sqlshack.com/using-dynamic-data-masking-in-sql-server-2016-to-protect-sensitive-data/
 -- https://dba.stackexchange.com/questions/176160/how-to-check-which-database-roles-can-see-masked-columns
+-- https://docs.microsoft.com/en-us/sql/relational-databases/security/static-data-masking?view=sql-server-2017
