@@ -1,0 +1,7 @@
+-- https://developer.rackspace.com/blog/dynamic-data-masking-in-sql-server-2016/
+-- https://docs.microsoft.com/it-it/sql/relational-databases/system-catalog-views/sys-masked-columns-transact-sql?view=sql-server-2017
+-- https://simonlearningsqlserver.wordpress.com/2018/02/20/dynamic-data-masking/
+-- http://www.sqlservercentral.com/articles/Security/149689/
+-- https://www.red-gate.com/simple-talk/blogs/unmasking-the-dynamic-data-masking/
+-- https://www.sqlshack.com/using-dynamic-data-masking-in-sql-server-2016-to-protect-sensitive-data/
+-- https://dba.stackexchange.com/questions/176160/how-to-check-which-database-roles-can-see-masked-columns
