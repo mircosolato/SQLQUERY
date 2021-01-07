@@ -7,7 +7,7 @@ SELECT
     dm_db_index_usage_stats.user_seeks,
     dm_db_index_usage_stats.user_scans,
     dm_db_index_usage_stats.user_updates,
-	'DROP INDEX' + indexes.name + ' ON ' + schemas.name + '.' + objects.name as sql_text
+	'DROP INDEX ' + indexes.name + ' ON ' + schemas.name + '.' + objects.name as sql_text
 FROM
     sys.dm_db_index_usage_stats
     INNER JOIN sys.objects ON dm_db_index_usage_stats.OBJECT_ID = objects.OBJECT_ID
