@@ -1,0 +1,8 @@
+From c#, create service broker without modify database
+
+
+file: realtimenotifications.zip
+
+https://www.dotnetcurry.com/aspnet/1311/real-time-server-broadcast-using-signalr-knockoutjs
+https://archive.codeplex.com/?p=realtimenotifications
+https://stackoverflow.com/questions/40854392/sqltabledependency-permission-issues
