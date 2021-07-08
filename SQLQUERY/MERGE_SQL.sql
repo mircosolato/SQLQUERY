@@ -25,3 +25,19 @@ INSERTED.Rate AS SourceRate;
 
 SELECT @@ROWCOUNT;
 GO
+
+create table Temp (ProjectId INT, oID INT)
+
+MERGE INTO Temp USING
+(
+    SELECT 
+        a.oID as oID,
+        b.ProjectId as ProjectId
+    FROM @ImportProjects a
+    CROSS JOIN Projects b
+) AS s ON 1 = 0
+WHEN NOT MATCHED THEN
+INSERT (oID, ProjectId)
+VALUES (s.oID, s.ProjectId)
+OUTPUT Inserted.ProjectId, s.oID
+INTO Temp(oID, ProjectId);
